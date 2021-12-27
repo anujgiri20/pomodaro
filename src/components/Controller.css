@@ -1,0 +1,43 @@
+.controller {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .controller button {
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 3px solid #f87070;
+
+    background-color: transparent;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+    width: 90px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    margin: 15px;
+    text-transform: uppercase;
+    border-radius: 31.5px;
+
+    font-size: 1rem;
+    color:#d7e0ff;
+    font-family: 'Kumbh Sans', sans-serif;
+    transition: 1s;
+    margin-top:50px;
+  }
+  
+  .controller button:hover {
+    cursor: pointer;
+    transition: 1s;
+    background: linear-gradient(315deg,#66698b,#0e112a);
+    border: 3px solid transparent;
+    border:0px;
+    color:white;
+  }

@@ -1,0 +1,55 @@
+.times {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    
+  }
+  
+  .times-content {
+    display: inline-block;
+    margin: 0 auto;
+    width: 280px;
+    height: 280px;
+    margin-top: 25px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 20px solid ;
+    background: linear-gradient(315deg,#2e325a,#0e112a);
+    border-radius: 50%;
+    border-color:#f87070;
+    transition: 1s;
+  }
+  
+  #timer-label {
+    font-size: 1.5rem;
+    color:#d7e0ff;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  #time-left {
+    font-size: 3.5rem;
+    font-family: 'Kumbh Sans', sans-serif;
+  color:#d7e0ff;
+  }
+
+  .timer_clock{
+      background: linear-gradient(315deg,#2e325a,#0e112a);;
+  border-radius:50%;
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+box-shadow: 5px 5px 20px 15px #333650;
+
+  
+
+    }
+   
+
+    .times-content:hover{
+        border-color:#70f3f8;
+    transition: 1s;
+    }

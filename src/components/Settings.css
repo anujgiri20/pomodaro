@@ -1,0 +1,66 @@
+.settings {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    margin-top: 25px;
+  }
+  
+  .settings-section {
+    text-align: center;
+  }
+  
+  .settings-section label {
+    font-family: 'Kumbh Sans', sans-serif;
+    color:#d7e0ff;
+    font-size: 1.5rem;
+    color:#d7e0ff;
+    font-weight: 700;
+  }
+ 
+
+
+
+  .btn_total
+  {
+background-color: #161932;
+padding:5px;
+margin-top:10px;
+border-radius: 31.5px;
+width:150px;
+margin-bottom:50px;
+
+  }
+
+
+  .settings-section span {
+
+    font-family: 'Kumbh Sans', sans-serif;
+    
+    font-size: 1.5rem;
+   
+    font-weight: 700;
+
+
+
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.001em;
+font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  button{
+    background-color: transparent;
+    border:0px;
+    font-size: 1.3rem;
+color:white
+}

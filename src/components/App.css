@@ -1,0 +1,16 @@
+.pomodoro-clock-header {
+    text-align: center;
+    margin-top: 25px;
+  }
+  
+  .pomodoro-clock-header-name {
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:#d7e0ff;
+    padding: 0px 10px;
+    font-size: 1.5rem;
+  }
+  
+  
